@@ -1,5 +1,6 @@
 
 # How to host and format a resume using Markdown, GitHub Pages and Jekyll (On Windows)
+![gifresume](https://user-images.githubusercontent.com/93418165/199075491-43f35245-a4d1-4868-b3b1-51d7850a008a.gif)
 
 ## Purpose 
 

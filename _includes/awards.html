@@ -1,0 +1,22 @@
+<div class="resume-content">
+
+    {% if site.data.awards.size > 0 %}
+    
+    <h2>Awards</h2>
+    <hr>
+    
+    {% for award in site.data.awards %}
+    <div class="entry">
+        <h4 class="title">{{ award.title }}</h4>
+        <h4 class="date">{{ award.time }}</h4>
+        <ul>
+            <li>{{ award.description }}</li>
+        </ul>
+    </div>
+    
+    {% endfor %}
+    
+    {% endif %}
+    
+</div>
+    

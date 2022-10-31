@@ -1,0 +1,23 @@
+<div class="resume-content">
+
+    {% if site.data.projects.size > 0 %}
+
+
+    <h2>Projects</h2>
+    <hr>
+
+
+    {% for project in site.data.projects %}
+    <div class="entry">
+        <h4 class="title">{{ project.title }} <a class="project-link" href={{project.link}} target="_blank">(Project Link)</a></h4><br>
+        <h4 class="subtitle">{{ project.tools | join: ", " }}</h4>
+        {{ project.description | markdownify }}
+    </div>
+       
+    
+    {% endfor %}
+
+    {% endif %}
+    
+    </div>
+    

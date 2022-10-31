@@ -1,0 +1,11 @@
+- title: Text Adventure Game - Java
+  link: https://github.com/pdkpeter/TextAdventureGame
+  description: |
+    - Created an Object-Oriented RPG game that uses polymorphism through a hierachy of classes.
+    - Player determines outcome of the game by inputting basic commands.
+    
+- title: Clash Royal chest tracker API - Python
+  link: https://github.com/pdkpeter/ClashRoyalAPI
+  description: |
+    - Sends get requests to the Clash Royal API (Mobile Game).
+    - Retrieves data from given player and displays stats.

@@ -1,0 +1,20 @@
+<div class="resume-content">
+
+    {% if site.data.activities.size > 0 %}
+    
+    <h2>Activities</h2>
+    <hr>
+    <div class="entry">
+    {% for activity in site.data.activities %}
+    
+        <h4 class="title">{{ activity.title }}</h4>
+        <h4 class="date">{{ activity.time }}</h4>
+        {{ activity.description | markdownify}}
+    </div>
+    
+    {% endfor %}
+    
+    {% endif %}
+    
+</div>
+    

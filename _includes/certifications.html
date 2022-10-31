@@ -1,0 +1,15 @@
+<div class="resume-content">
+
+    {% if site.data.certifications.size > 0 %}
+
+    <h2>Certifications</h2>
+    <hr>
+    <div class="entry">
+    {% for certification in site.data.certifications %}
+        <h4 class="title">{{ certification.title }} ({{ certification.time }}) </h4>
+        <br />
+    {% endfor %}
+    </div>
+    {% endif %}
+</div>
+    

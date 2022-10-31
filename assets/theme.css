@@ -1,0 +1,296 @@
+/* Variables
+
+--main-color: Changes the color of the header, footer, and project links.
+--background-color: Changes the color of the background.
+
+*/
+:root {
+  --header-and-footer-color: #6f0000;
+  --background-color: #e5e5e5;
+}
+
+/* Parts of a resume */
+
+body {
+  background-color: var(--background-color);
+}
+
+div.contact {
+  background-color: var(--header-and-footer-color);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding: 0.4em;
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+div.resume-content{
+  background-color: #FBF7F2;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  padding: 0.4em;
+  padding-bottom: 0%;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+}
+
+div.entry{
+  padding-bottom: 15px;
+}
+
+
+div.footer {
+  background-color: var(--main-color);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding: 0.4em;
+  margin: auto;
+  width: 50%;
+}
+
+hr {
+  border-top: 1px solid black;
+}
+
+/* Headers, links and bullet points */
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 0;
+  color: #ffffff;
+  margin: 15px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+h4.title{
+  display: inline-block;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+h4.date {
+  font-weight: normal;
+  float: right;
+  margin: 0;
+}
+
+h4.subtitle{
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+a.contact{
+  color: white;
+}
+
+a.project-link{
+  color: var(--header-and-footer-color);
+}
+
+ul {
+  margin: 0;
+}
+
+div.footer {
+  background-color: var(--header-and-footer-color);
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+/* Media queries */
+
+/* for extra small devices */
+@media only screen and (max-width: 600px) {
+
+  h4.date {
+    all: revert;
+    font-weight: normal;
+    margin: 0px;
+  }
+
+
+  div.contact {
+    width: 95%;
+    margin-top: 15px;
+  }
+
+  div.resume-content {
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  div.entry{
+    padding-bottom: 10px;
+  }
+
+  div.footer {
+    background-color: var(--header-and-footer-color);
+    width: 95%;
+    margin-bottom: 15px;
+  }
+}
+
+/* for small devices */
+@media only screen and (min-width: 600px) {
+
+  h4.date {
+    all: revert;
+    font-weight: normal;
+    margin: 0px;
+  }
+
+
+  div.contact {
+    width: 95%;
+    margin-top: 15px;
+  }
+
+  div.resume-content {
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  div.entry{
+    padding-bottom: 10px;
+  }
+
+  div.footer {
+    background-color: var(--header-and-footer-color);
+    width: 95%;
+    margin-bottom: 15px;
+  }
+}
+
+/* for medium devices */
+@media only screen and (min-width: 768px) {
+
+  h4.date {
+    all: revert;
+    float: right;
+    font-weight: normal;
+    margin: 0px;
+  }
+
+
+  div.contact {
+    width: 95%;
+    margin-top: 15px;
+  }
+
+  div.resume-content {
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  div.entry{
+    padding-bottom: 10px;
+  }
+
+  div.footer {
+    width: 95%;
+    margin-bottom: 15px;
+  }
+
+  div.footer {
+    background-color: var(--header-and-footer-color);
+    width: 95%;
+    margin-bottom: 15px;
+  }
+}
+
+/* for laptops and desktops */
+@media only screen and (min-width: 992px) {
+
+  h4.date{
+    all: revert;
+    font-weight: normal;
+    margin: 0;
+    float: right;
+  }
+
+  div.contact {
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  div.resume-content {
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  div.footer {
+    background-color: var(--header-and-footer-color);
+    width: 80%;
+    margin-bottom: 15px;
+  }
+
+/* for large laptops and desktops */
+@media (min-width: 1200px) {
+
+  h4.date{
+    all: revert;
+    font-weight: normal;
+    margin: 0;
+    float: right;
+  }
+
+  div.contact {
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  div.resume-content {
+    width: 80%;
+    margin: 0px auto;
+  }
+
+
+  div.footer {
+    background-color: var(--header-and-footer-color);
+    width: 80%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Larger laptops and desktops */
+@media (min-width: 1200px) {
+
+  h4.date{
+    all: revert;
+    font-weight: normal;
+    margin: 0;
+    float: right;
+  }
+
+  div.contact {
+    width: 50%;
+    margin-top: 15px;
+  }
+
+  div.resume-content {
+    width: 50%;
+    margin: 0px auto;
+  }
+
+
+  div.footer {
+    background-color: var(--header-and-footer-color);
+    width: 50%;
+    margin-bottom: 15px;
+  }
+}
+
+
+}

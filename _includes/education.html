@@ -1,0 +1,23 @@
+<div class="resume-content">
+
+{% if site.data.education.size > 0 %}
+
+<h2>Education</h2>
+<hr>
+
+{% for education in site.data.education %}
+<div class="entry">
+    <h4 class="title">{{ education.location }}</h4>
+    <h4 class="date">{{ education.time }}</h4>
+    <h4 class="subtitle">{{ education.degree }}</h4>
+    {% if education.courses.size > 0 %}
+        <b>Relevant Courses:</b>
+        {{ education.courses | join: ", " }}
+    {% endif %}
+</div>
+
+{% endfor %}
+{% endif %}
+
+
+</div>

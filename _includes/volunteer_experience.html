@@ -1,0 +1,22 @@
+<div class="resume-content">
+    
+    {% if site.data.volunteer_experience.size > 0 %}
+
+    <h2>Volunteer Experience</h2>
+    <hr>
+
+    {% for volunteer_experience in site.data.volunteer_experience %}
+        
+    <div class="entry">
+        <h4 class="title">{{ volunteer_experience.location }}</h4>
+        <h4 class="date">{{ volunteer_experience.time }}</h4>
+        <h4 class="subtitle"> {{volunteer_experience.title }}</h4>
+        {{ volunteer_experience.description | markdownify}}
+    </div>
+    
+    {% endfor %}
+
+    {% endif %}
+    
+    </div>
+    

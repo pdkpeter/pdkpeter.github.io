@@ -1,0 +1,17 @@
+<div class="resume-content">
+
+    {% if site.data.skills.size > 0 %}
+
+    <h2>Skills</h2>
+    <hr>
+    <div class="entry">
+    {% for skill in site.data.skills %}
+    
+        <h4 class="title">{{ skill.category }}:</h4>
+        {{ skill.list | join: ", " }}
+        <br />
+    {% endfor %}
+    </div>
+    {% endif %}
+</div>
+    

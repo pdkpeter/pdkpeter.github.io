@@ -106,7 +106,7 @@
 
 ## Authors and Acknowledgments
 
-- [RyanxLoi](https://github.com/RyanxLoi) : creator of Jekyll theme used 
+- [RyanxLoi](https://github.com/RyanxLoi) : Creator of Jekyll theme used 
 - Elieser Capillar
 - Jeonghwan Choi
 - Devam Patel

@@ -59,7 +59,7 @@
 >	Note: Some themes require you to have already created a static site, so I will quickly show you how to set that up.
 - Open a new command prompt by typing `cmd` on the search bar of your computer.
 - Enter the folder on which you'd like to host the website by typing `cd "foldername"`.
-- Type `jekyl new resume`.
+- Type `jekyll new resume`.
 	>Note: "resume" can be any name you'd like.
 - Follow the instructions of the README of the theme you chose to go with. This will include editing the theme as well.
 

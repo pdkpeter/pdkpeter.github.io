@@ -10,7 +10,7 @@
 ## Prerequisites
 
 - [A GitHub Account.](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
-- [A Resume formatted in Markdown.](#MoreResources)
+- [A Resume formatted in Markdown.](#More-Resources)
 - [Git installed](https://git-scm.com/downloads)
 
 ## Instructions
@@ -98,7 +98,7 @@
 - Type `git push origin gh-pages`.
 
 
-## MoreResources
+## More Resources
 
 - [MarkDown tutorial](https://www.markdowntutorial.com/)
 - [Modern Technical Writing: An Introduction to Software Documentation - Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
@@ -106,7 +106,7 @@
 
 ## Authors and Acknowledgments
 
-- [RyanxLoi](https://github.com/RyanxLoi)
+- [RyanxLoi](https://github.com/RyanxLoi) : creator of Jekyll theme used 
 - Elieser Capillar
 - Jeonghwan Choi
 - Devam Patel
